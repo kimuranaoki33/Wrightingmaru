@@ -1,5 +1,6 @@
 import os
 import anthropic
+import pyperclip
 from pathlib import Path
 
 
@@ -136,6 +137,12 @@ def main():
     output_path = Path("output.txt")
     output_path.write_text(article, encoding="utf-8")
     print(f"\n💾 output.txt に保存しました")
+
+    try:
+        pyperclip.copy(article)
+        print("📋 クリップボードにコピーしました。そのままnoteに貼り付けできます")
+    except Exception:
+        print("（クリップボードへのコピーはこの環境では非対応です。output.txt をご利用ください）")
 
 
 if __name__ == "__main__":
