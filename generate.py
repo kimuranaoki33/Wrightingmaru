@@ -40,7 +40,7 @@ def generate_article(prompt_content: str, style_samples: list) -> str:
 
 【出力形式】
 noteに貼り付けられるMarkdown形式で出力してください。使用できる記法は以下のみです:
-- 見出し：## 大見出し、### 小見出し
+- 見出し：# 大見出し、## 中見出し、### 小見出し
 - 強調：**太字**
 - 引用：> 引用テキスト
 - 箇条書き：- 項目
