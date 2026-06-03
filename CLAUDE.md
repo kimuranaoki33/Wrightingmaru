@@ -72,6 +72,7 @@ Claude API にサンプル記事を渡し、指定テーマで文体を再現さ
 **sampleファイル：**
 - `samples/01_keyboard_article.txt` — iPhoneキーボード記事（note投稿済み完成版）
 - `samples/02_dryer_article.txt` — 乾燥機レビュー記事（note投稿済み完成版）
+- `samples/03_sofi_comments.txt` — SOFI投資掲示板コメント集（文体・投資観の参考データ）
 
 ## 今後の拡張方針
 
